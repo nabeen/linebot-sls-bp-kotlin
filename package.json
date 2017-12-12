@@ -1,0 +1,19 @@
+{
+    "name": "linebot-sls-bp-kotlin",
+    "version": "0.0.1",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "./gradlew build --daemon",
+        "predeploy": "npm run build",
+        "deploy": "sls deploy",
+        "remove": "sls remove"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "serverless": "^1.7.0"
+    }
+}
