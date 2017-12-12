@@ -1,4 +1,4 @@
-# linebot kotlin
+# linebot-sls-bp-kotlin
 
 This application is a LINE BOT written in Kotlin running on AWS Lambda, and used [Serverless Framework](https://serverless.com/framework/)
 
